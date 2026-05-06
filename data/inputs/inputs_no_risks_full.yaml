@@ -1,0 +1,1255 @@
+examples:
+- inputs:
+  - How fast do tropical forests recover carbon after abandonment?
+  outputs:
+  - Research using satellite imagery and lidar technology has quantified forest recovery
+    rates following land abandonment. Studies demonstrate that aboveground biomass
+    accumulates significantly over time, with forests reaching approximately 143 Mg
+    ha⁻¹ after 20 years of recovery. This corresponds to a carbon uptake rate of 3.4
+    Mg C ha⁻¹ yr⁻¹ over the first two decades. Recovery patterns follow non-linear
+    trajectories, with evidence suggesting increasing accumulation rates during the
+    first 42 years of succession, potentially following a sigmoid relationship where
+    rates accelerate initially then decline after 50-60 years. However, accumulation
+    patterns vary considerably across different sites and regions. Some studies report
+    linear relationships, others logarithmic trends, and still others power functions,
+    depending on factors such as climate, soil conditions, species composition, and
+    previous land use history. The 2019 IPCC guidelines refined 2006 IPCC carbon rate
+    estimates, particularly for Asian secondary forests, though these revisions are
+    based on limited datasets that may not fully represent tropical forest diversity.Reference-
+    https://doi.org/10.5194/bg-17-121-2020 (Paragraph 4.2)
+  risk_ids: []
+  SME: Nidhi
+- inputs:
+  - What are the current capabilities and limitations of remote sensing technologies
+    for measuring tropical forest biomass?
+  outputs:
+  - Remote sensing approaches for estimating tropical forest aboveground biomass (AGB)
+    face several methodological challenges despite their importance for carbon stock
+    assessments. Traditional multispectral satellite data from platforms like Landsat,
+    MODIS, and Sentinel-2 offer broad spatial coverage but often suffer from limited
+    field calibration data and flawed validation schemes that produce overly optimistic
+    accuracy estimates. Airborne LiDAR provides higher accuracy (10-15% at 1-ha resolution)
+    and detailed structural information, but its high cost restricts coverage to small
+    areas, typically less than 100 km². A promising two-step upscaling strategy has
+    emerged, using LiDAR as an intermediate product between field measurements and
+    satellite data to improve calibration representativeness and minimize spatial
+    mismatches. However, many satellite-derived vegetation indices saturate at AGB
+    values above 150 Mg ha⁻¹, particularly problematic in dense tropical forests.
+    Recent developments include Sentinel-2's improved spectral and spatial resolution,
+    and texture indices from high-resolution imagery that may avoid saturation issues
+    by correlating with tree crown size distributions. Reference- https://doi.org/10.1002/rse2.203
+    (paragraph Introduction 1-3)
+  risk_ids: []
+  SME: Nidhi
+- inputs:
+  - What remote sensing methods are used to detect and classify oil palm plantations?
+  outputs:
+  - 'Many approaches have been developed for studying oil palm plantation expansion.
+    One approach that has been suggested for detecting and distinguishing oil palm
+    trees from any other object such as forests, buildings and other agricultural
+    plantations is by classifying objects according to their land cover classes (Nooni
+    et al., 2014). Using sensors to detect different signals collected from the sunlight,
+    analyses of the reflected energy, and classification using spectral signatures,
+    different land cover classes can be identified. The Near-infrared (NIR) region
+    has also been found to be the crucial band in differentiating oil palm trees from
+    other objects (Shafri et al., 2011). Another study used the Normalised Difference
+    Index (NDI), which allows finding the best performing vegetation indices that
+    can separate oil palm trees from their background (Srestasathiern and Rakwatin,
+    2014). The NDI is a normalised ratio of the green-to-red band. The study was conducted
+    using four multispectral bands (blue, green, red, Near-infrared (NIR)) from high-resolution
+    Quickbird imageries.
+
+    Good layout design of the oil palm trees is important for a successful and efficient
+    plantation operation. Tree counting is important for monitoring, replanting, and
+    layout planning for oil palm trees. It provides a view that enables the automatic
+    counting of trees within an area. However, successful results only can be achieved
+    when the input images are of good quality with a very high spatial resolution
+    that can discriminate individuals oil palm trees. Automatic tree counting using
+    airborne hyperspectral data with a high spatial resolution (1m) was conducted
+    for automatic tree counting (Shafri et al., 2011) and has yielded an accuracy
+    of 95%. By implementing automatic tree counting, plantation managers can make
+    strategic decisions on how to arrange their trees for optimal sunlight penetration
+    (Basiron, 2007). References: https://doi.org/10.1016/j.rsase.2022.100747'
+  risk_ids: []
+  SME: Nidhi
+- inputs:
+  - What factors influence tropical forest biomass recovery rates and resilience following
+    disturbance, and how can this information guide conservation and restoration strategies?
+  outputs:
+  - 'Dry and moist forests differ substantially in old-growth forest biomass, and
+    relative recovery may therefore be a better indicator of forest resilience than
+    absolute recovery rates. It takes a median time of 66 years to recover to 90%
+    of old-growth values. However, several mid-successional sites of 40–100 years
+    old attained higher biomass than old-growth forest , which has also been found
+    by modelling studies. This is most probably because of a high abundance of old
+    trees of long-lived pioneer species in mid-successional sites, which tend to be
+    large and store large amounts of carbon before they die. Several studies suggest
+    that, once a certain threshold of disturbance is reached, tropical forests may
+    collapse or switch to an alternative stable state. Our study shows that forests
+    can be resilient, and that their biomass resilience strongly depends on water
+    availability. By mapping potential for biomass recovery across the Neotropics,
+    attention can be focused on particular areas that should be conserved or treated
+    with extra caution because they are more difficult to restore (slow recovery).
+    The recovery map can also be used to identify areas with high carbon sequestration
+    potential for United Nations collaborative initiative on Reducing Emissions from
+    Deforestation and forest Degradation (REDD+) programmes, or where (assisted) natural
+    regeneration, or restoration and afforestation activities, may have the highest
+    chance of success (high recovery). Such a spatially explicit, resource-based approach
+    paves the road towards a more sustainable design and management of human-modified
+    tropical landscapes.
+
+    Reference- 10.1038/nature16512'
+  risk_ids: []
+  SME: Nidhi
+- inputs:
+  - How do different microwave remote sensing wavelengths and polarizations perform
+    in distinguishing oil palm plantations from natural forest cover?
+  outputs:
+  - Microwave remote sensing, as a form of active remote sensing, is capable of delivering
+    imagery independent of weather or daylight conditions by generating its own irradiation
+    with the ability to penetrate the surface. It solved the problem of cloud cover
+    of optical remote sensing, which is a common hindrance, especially in tropical
+    countries where oil palms are mostly planted. It generates information based on
+    the backscattered energy from the ground surface. A longer wavelength of microwave
+    has higher penetrative power. Besides, the texture information of the illuminated
+    target can be collected by measuring the neighboring pixels. This information
+    could be used to distinguish a smooth surface (eg water, soil) from a rough surface
+    (eg shrubs, trees) with reference to its radar wavelength. Therefore, L-band (at
+    30–15 cm wavelength) is considered to be most efficient in mapping forested vegetation
+    and oil palms as it can penetrate tree canopies and provide information of the
+    sub-canopy structures . With these valuable attributes, microwave remote sensing
+    has been used in the classification of oil palm. Reference- https://doi.org/10.1080/10095020.2017.1337317
+  risk_ids: []
+  SME: Nidhi
+- inputs:
+  - How effective are protected areas in preventing deforestation compared to unprotected
+    areas globally, and what specific challenges do Southeast Asian protected areas
+    face in maintaining forest cover?
+  outputs:
+  - Based on Landsat satellite imagery between 2000–2013, it is estimated the global
+    protected area network lost 3.4 times less intact forest than unprotected areas,
+    accounting for differences in accessibility, terrain and human pressure20. Geographically,
+    protection had the weakest effect on maintaining intact forests in Southeast Asia,
+    Australia and tropical South America20. Indo-Malayan forests have exceptional
+    biological diversity, yet also rapid rates of deforestation21, driven by global
+    demand for timber, palm oil and rubber22. Protected areas in Southeast Asia experienced
+    a higher mean change in human pressure between 1995 and 2010 than in any other
+    region in the world14. Given historical deforestation rates, Sodhi et al.23 warned
+    that over 40% of the region's biodiversity may vanish by 2100. Understanding the
+    impact of interventions in this region, like protection status or carbon payments
+    on retaining forest cover, is critical for improving conservation responses with
+    finite resources and is a requirement for satisfying Monitoring, Evaluation and
+    Reporting (MER) program requirements to access REDD+ and other funding streams
+    (e.g., the Global Environmental Facility and the World Bank). Stronger forest
+    protection and conservation efforts are needed across Southeast Asia's existing
+    protected areas to avert the future trajectories of forest cover and forest carbon
+    loss estimated by 2050. Reference- https://doi.org/10.1038/s41598-021-03188-w
+  risk_ids: []
+  SME: Nidhi
+- inputs:
+  - How do carbon sequestration rates in regenerating tropical forests vary between
+    different geographic regions, and what are the limitations of current research
+    methods for measuring these dynamics?
+  outputs:
+  - Earlier research has utilized extended forest plot monitoring across chronosequences
+    to measure carbon dynamics in regenerating tropical forests. While sustained forest
+    plot studies are fundamental for comprehending tropical forest dynamics, they
+    remain limited, require substantial labor investment, are costly and time-intensive
+    to sustain, and show uneven geographical distribution throughout tropical regions.
+    Moreover, most investigations of carbon dynamics during tropical forest succession
+    concentrate in Latin America, with limited representation from other tropical
+    regions. These studies demonstrate considerable inter-site variability in forest
+    carbon recovery rates, indicating strong contextual dependencies, partially influenced
+    by climatic conditions. Several pantropical investigations have indicated that
+    Latin American forests exhibit lower carbon potential compared to Southeast Asian
+    and African forests. Nevertheless, a recent analysis compiling published data
+    across tropical regions unexpectedly revealed that Asian tropical secondary rainforest
+    carbon sequestration potential was substantially lower than American and African
+    counterparts. This research contributed to recent updates of the 2006 IPCC guidelines
+    for national greenhouse gas inventories. The representativeness of these updated
+    estimates for Asian tropical rainforests remains highly uncertain due to critical
+    data gaps in this region. This uncertainty is particularly significant for Asian
+    tropical forests, where half the forest area has experienced disturbance over
+    the past century, leading to secondary forest dominance throughout the region.
+    Reference- https://doi.org/10.5194/bg-17-121-2020
+  risk_ids: []
+  SME: Nidhi
+- inputs:
+  - What impacts the accuracy of hyperspectral remote sensing for monitoring landscape
+    diversity, and what are the trade-offs between spatial and spectral resolution
+    in ecological applications?
+  outputs:
+  - 'Compared with the widely used multispectral remote sensing, hyperspectral remote
+    sensing can capture extremely narrow and continuous spectral images. This advantage
+    enables it to collect information from hundreds of very narrow spectral bands,
+    providing fine spectral resolution (Abbas et al., 2021). Moreover, its scaling
+    effect enables accurate mapping of interspecific distinctions in species composition
+    within communities (de Almeida et al., 2021). This capability allows hyperspectral
+    remote sensing to capture physiological and biochemical traits such as chlorophyll
+    content, leaf area and leaf structure using spectral differences between species
+    as well as among communities (Wang et al., 2022a). Therefore, hyperspectral remote
+    sensing is considered to be a viable method for monitoring landscape diversity
+    (Wang et al., 2022b). However, there is relatively insufficient research utilizing
+    hyperspectral imagery to monitor diversity at the landscape scale.
+
+    Scaling defines the granularity and spatial range of various processes in ecology
+    (Heym et al., 2021). If the scale is too large, it may alter the observed organizational
+    level and potentially lead to information loss (Wang et al., 2018). Conversely,
+    at smaller scales, local details and spatial heterogeneity become more obvious,
+    leading to redundancy in landscape diversity information. In remote sensing science,
+    spatial scale refers to the resolution of an image, indicating the size of real
+    world represented by each pixel (Tong et al., 2020). As spatial scale increases,
+    the balance between spatial and spectral resolution results in a decrease in the
+    amount of ground feedback information. Therefore, landscape diversity inversion
+    through remote sensing may be affected by scaling effects (Perrone et al., 2023).
+    Previous research has confirmed this phenomenon. For example, a study in the South
+    European Alps showed spatial scale can leads to the differences in responses of
+    plant diversity to different environmental elements (Morelli et al., 2013). Hakkenberg
+    et al. (2018) indicated that forest diversity pattern changes with shifts in spatial
+    resolution of remote sensing and environmental gradient. Currently, there is no
+    research on the optimal spatial scale for wetland landscape diversity monitoring.
+    Furthermore, it has not been studied whether scaling effects limit the accuracy
+    of remote sensing in capturing landscape diversity. Reference- https://doi.org/10.1016/j.jag.2024.103716'
+  risk_ids: []
+  SME: Nidhi
+- inputs:
+  - How do different methods of calculating species diversity (density vs. cover-based)
+    affect the accuracy of spectral indices in predicting biodiversity patterns in
+    plant communities
+  outputs:
+  - "In fact, species diversity indexes can be computed using various methods, including\
+    \ species density, cover, height and biomass (Kent, 2012; Whittaker, 1972). Among\
+    \ them, the method based on species cover is the most frequently used in spectral-species\
+    \ diversity studies (Fauvel et al., 2020; Gholizadeh et al., 2019; Imran et al.,\
+    \ 2021; Taddeo et al., 2019a), followed by the method based on species density\
+    \ (Anand et al., 2022; Tan et al., 2022; Thornley et al., 2022). It is feasible\
+    \ to measure species diversity based on the density of species in a community,\
+    \ but it may not be desirable to do so in the study of spectral-species diversity\
+    \ relationships. As spectral indexes typically refer to the variation in spectral\
+    \ reflectance across pixels (Perrone et al., 2023), which reflects the reflectance\
+    \ of plant community canopy directly. Due to the difference in the sizes of different\
+    \ plants, species with higher density may not occupy a larger cover of the community,\
+    \ which is often more obvious in the field. This may lead to mismatches between\
+    \ spectral indexes and species diversity indexes computed based on species density.\
+    \ As shown in Fig. 1, we hypothesize that there are three types of plants (plant-A,\
+    \ plant-B, plant-C) that occupy (4,1,1) units. Their species diversity indexes\
+    \ computed by species density were compared to that computed by species cover.\
+    \ Reference- \nhttps://doi.org/10.1016/j.jag.2023.103370"
+  risk_ids: []
+  SME: Nidhi
+- inputs:
+  - Whats the importance of urban tree carbon stocks (UTCS) and how its assessed using
+    combined field survey and remote sensing approaches?
+  outputs:
+  - 'As global climate change intensifies, urban trees are increasingly valued for
+    their capacity to store and sequester carbon, thereby helping to mitigate environmental
+    impacts (Churkina, 2016). In addition, they offer a wide range of ecosystem services,
+    including air purification, temperature regulation, noise reduction, and recreational
+    opportunities (Endreny, 2018, van den Bosch and Ode Sang, 2017). Nature-based
+    Solutions (NbS) leverage these benefits to address climate challenges, positioning
+    urban trees as a vital component of sustainable urban development (Skole et al.,
+    2021, Tang et al., 2024, Zhao et al., 2024). Detailed and accurate assessments
+    of urban tree carbon stocks (UTCS) — defined in this review as aboveground biomass
+    (AGB) carbon — is essential for understanding their role in emission reduction
+    and guiding urban carbon management strategies. With the growth of carbon markets,
+    the carbon sequestration potential of urban trees has become both an ecological
+    and economic asset, contributing to sustainability goals and financial mechanisms
+    such as carbon credit trading (Fu, 2024, McHale et al., 2007).
+
+    According to previous surveys and reviews, a common practice for quantifying and
+    mapping UTCS is the combination of field surveys and remote sensing techniques
+    (Li et al., 2017, Lu et al., 2016, Yang et al., 2022, Zhuang et al., 2022). Field
+    surveys in urban settings, which generally follow traditional inventory procedures
+    to record biophysical attributes of individual trees such as crown width, height,
+    diameter at breast height (DBH), and species (Esperon-Rodriguez et al., 2022,
+    Esperon-Rodriguez et al., 2023), are particularly effective for plot-based or
+    other small-scale UTCS assessments. These biophysical measurements are commonly
+    incorporated into well-documented allometric equations to estimate AGB of individual
+    trees. Moreover, they can be aggregated at the plot level to calibrate and/or
+    validate remote sensing models for large-scale UTCS assessments (Wang et al.,
+    2019b, Zhang and Shao, 2021).'
+  risk_ids: []
+  SME: Nidhi
+- inputs:
+  - What evidence supports the presence of liquid water on Mars today?
+  outputs:
+  - "The most sought-after requirement for present-day Martian habitability is the\
+    \ existence of liquid water. Recent work has shown that present-day conditions\
+    \ may allow for stable brines on its surface and shallow subsurface, though only\
+    \ for a small fraction of the year. Indeed, several in situ and orbital observations\
+    \ have suggested the potential presence of liquid on the Martian surface. The\
+    \ Phoenix lander, which was dedicated to the study of water in the polar regions,\
+    \ found evidence in support of transient liquids in the regolith through dielectric\
+    \ measurements and the heterogenous distribution of salts in the regolith, as\
+    \ well as potential direct observations of brine droplets on the lander struts.\
+    \ Meteorological observations at the Mars Science Laboratory (MSL) rover landing\
+    \ site in Gale crater suggested that the surface conditions would permit the formation\
+    \ of perchlorate brines, though only in specific terrain units and for a short\
+    \ time. Observed active and seasonal flow features on crater walls, such as recurring\
+    \ slope lineae (RSL), have furthered the idea of present-day liquid formation;\
+    \ however, a purely or mostly dry flow process cannot be ruled out. \n\nhttps://doi.org/10.3847/PSJ/ac75c4"
+  risk_ids: []
+  SME: Rachel
+- inputs:
+  - What experiments have been conducted to study deliquescence of salts, both single
+    and binary mixtures?
+  outputs:
+  - One pathway for brines to form is through a process called deliquescence. Deliquescence
+    is the transition from a solid salt crystal into an aqueous solution when exposed
+    to a humid atmosphere. Many studies have been conducted to study deliquescence
+    of single salts both experimentally and through models at varying temperatures,
+    including low Mars-relevant temperatures. However, perchlorates have been detected
+    in close proximity to other salts, such as chlorides, chlorates, sulfates, and
+    nitrates. Experimental work has been conducted to examine the effect of relative
+    humidity (RH) on different binary salt mixtures, however of those only Gough et
+    al., has conducted experiments at lower temperatures (243-253 K). Chevrier et
+    al., modeled binary solutions to determine if chlorates/perchlorates and chlorides/perchlorates
+    mixtures exhibited a lower deliquescence relative humidity (DRH) and lower eutonic
+    point. However, to our knowledge, no study has been conducted on ternary salt
+    mixtures. This is the logical next step for determining the best salt combination
+    for Mars.                        https://doi.org/10.1016/j.icarus.2023.115914
+  risk_ids: []
+  SME: Rachel
+- inputs:
+  - What evidence is there that RSLs (Recurring Slope Lineae) are formed by liquid
+    water?
+  outputs:
+  - RSL are narrow (0.5 to 5 m), dark linear features that appear on steep slopes
+    and lengthen during the warm season in equatorial and mid-latitude regions. Debate
+    has surrounded the formation of Recurring Slope Lineae (RSL, Fig. 1B) on Martian
+    crater and valley walls since they were first observed (McEwen et al., 2011; Stillman
+    et al., 2014). Multiple studies proposed liquid water as the cause, supported
+    by several lines of evidence. Firstly, RSL display seasonal changes, appearing
+    in warmer seasons and fading in colder periods, resembling liquid water behavior
+    (McEwen et al., 2014; Stillman et al., 2014). Observations from Mars Reconnaissance
+    Orbiter Compact Reconnaissance Imagin Spectrometer for Mars (CRISM) initally indicated
+    spectral features consistent with hydrated salts in RSL locations, suggesting
+    a potential source for brine formation (Ojha et al., 2015; Ojha et al., 2013).
+    Laboratory and terrestrial field studies also showed a striking resemblance between
+    RSLs and wetted surface flow features (Heinz et al., 2016; Levy, 2012).  However,
+    a more recent body of literature has contested the “wet” hypothesis. Dry processes,
+    like granular flows or movement of dust and sand without liquid water involvement,
+    have been proposed (Dundas, 2020; Dundas et al., 2017; Schmidt et al., 2017; Stillman
+    et al., 2021; Vincendon et al., 2019). Moreover, the detection of hydrated salts
+    in RSL locations doesn't explicitly confirm liquid water involvement, and interpretations
+    of other spectroscopic datasets (Edwards and Piqueux, 2016), including a reevaluation
+    of the CRISM data (Leask et al., 2018) even contradict the presence of salts in
+    RSL locations. Seasonal temperature variations on Mars contribute to RSL appearance
+    and disappearance without liquid water, yet salts may remain a key factor, influencing
+    regolith cohesion (Gough et al., 2020; Stillman et al., 2021).   https://doi.org/10.1073/pnas.2321067121
+  risk_ids: []
+  SME: Rachel
+- inputs:
+  - What evidence supports the existence, size, and accessibility of lava tubes on
+    the Moon?
+  outputs:
+  - 'The lunar maria have long been theorized to contain extensive lava tubes (Coombs
+    & Hawke, 1992; Greeley, 1971; Halliday, 1966; Hörz, 1985), perhaps much longer
+    and with greater diameters than those found on Earth due to both the high discharge
+    rate of lava and the low lunar gravity. Recent modeling has suggested that lava
+    tubes up to 3.5 km wide could be mechanically stable on the Moon (modeled with
+    a 3:1 width: height ratio), although it should be noted that the same analysis
+    allows for terrestrial lava tubes up to 800 m wide, while the largest known terrestrial
+    lava tube is ∼30 m wide (Blair et al., 2017). Simple gravitational scaling (Blair
+    et al., 2017) of that largest terrestrial tube would still suggest lunar lava
+    tubes with ∼200 m wide, however, and prior mapping has shown probable collapsed
+    lunar lava tube segments on the scale of 200–400 m wide (Coombs & Hawke, 1992;
+    Hörz, 1985). There have been suggestions of an intact lava tube between the two
+    Marius Hills pits from gravity (Chappaz et al., 2017) and radar (Kaku et al.,
+    2017) observations, but these identifications are tentative. In active terrestrial
+    lava tubes, small collapses of lava tube roofs result in openings known as skylights;
+    partial roof collapses that post-date the eruptive phase may also be referred
+    to as skylights. Skylights provide ready access to portions of the remaining tube,
+    no matter their formation time. Since lava tubes and skylights are common in terrestrial
+    basaltic flood basalts, and there is circumstantial evidence for lava tubes on
+    the Moon, it is natural to hypothesize that the mare pits are openings to such
+    voids, and thus the lunar examples have been referred to as skylights (e.g., Haruyama
+    et al., 2009).  https://doi.org/10.1029/2022JE007328'
+  risk_ids: []
+  SME: Rachel
+- inputs:
+  - How does the mineralogy of Gusev Crater compare to the  terrestrial analogue site
+    Robbers Roost Dike in the Colorado Plateau, specifically focused on minerals that
+    indicate past hydrothermal activity?
+  outputs:
+  - 'At Gusev Crater, MER Spirit analyzed a potential hot spring and/or hydrothermal
+    deposit. The mineralogy of the area in Gusev Crater is quite similar to what we
+    have found at the Colorado Plateau (Table 1): Sulfate sands at Paso Robles, Dead
+    Sea, Shredded, Arad, Tyrone, and Troy; hematite-rich outcrops between Home Plate
+    and Tyrone; SiO2-rich deposits at Northern Valley, Eastern Valley, and Tyrone;
+    carbonate outcrops at Comanche in the Columbia Hills; and potentially kaolinite
+    at Wooly Patch, which is consistent with relatively high water:rock ratios (such
+    as those examined here). High-sanidine, found in all of our dike samples, has
+    also been identified via XRD at Gale crater, lending further support to the similarity
+    of the altered K-rich igneous rocks on Mars and the present analogue site. Further,
+    CRISM spectra showed kaolin minerals (probably (Al)-Halloysite) and carbonates
+    within Gusev crater. Comparing the mineralogy to Robbers Roost Dike, the clay-oxide-salt
+    assemblage of varying abundances suggests a progressively more intense alteration
+    with oxidation of the igneous minerals (now no longer present) and precipitation
+    of secondary minerals. Such reaction pathways have generally been interpreted
+    as habitable via former fluid activity owing to the availability of metabolic
+    energy from redox reactions, and biomass increases in the subsurface by two orders
+    of magnitude at redox fronts – particularly in high porosity settings. Additionally,
+    these mineral assemblages in Martian (meteorite) compositions suggest circumneutral
+    fluid conditions. Therefore, our analogue site suggests that settings of basaltic
+    intrusions into sedimentary rocks – with or without sulfate – are ideal exploration
+    targets, since assessing habitability has been a mission goal for all rovers and
+    is a cornerstone for both astrobiology and human ISRU applications.   https://doi.org/10.1016/j.chemer.2020.125613'
+  risk_ids: []
+  SME: Rachel
+- inputs:
+  - How do terrestrial impact hydrothermal systems, like Chicxulub, inform our understanding
+    of Martian habitability?
+  outputs:
+  - 'During the Noachian, the Martian crust was a dynamic environment with both volcanism
+    and meteorite impacts churning and modifying the crust, producing both contact
+    metamorphism and high-temperature hydrothermal systems (e.g., Osinski et al. 2001;
+    Abramov & Kring 2005; Pirajno & Van Kranendonk 2005; Carr & Head 2010; Schwenzer
+    et al. 2012a; Arvidson et al. 2014; Turner et al. 2016). Such systems should have
+    left behind evidence as remnant mineralogy or potentially bleached zones. The
+    results here can be compared with those and used to constrain their formation
+    history.
+
+    Haloed or light-toned material that cuts across darker bedrock has been detected
+    both from orbit at Candor Chasma and at Gale Crater (e.g., Okubo & McEwen 2007;
+    Stein et al. 2020). At Candor Chasma, the light-toned halos are raised ridges
+    against a darker bedrock material and have been suggested to represent bleaching
+    of the bedrock with chemical precipitation of Fe-bearing minerals into pore spaces
+    of previous fractures of the bedrock (Okubo & McEwen 2007). At Vera Rubin ridge
+    within Gale Crater, there are light-toned materials that crosscut primary bedding
+    (Stein et al. 2020). These are interpreted to represent remnants of diagenetic
+    alteration after deposition of the sediments (Horgan et al. 2020). Mineralogically,
+    Vera Rubin ridge contains plagioclase, pyroxene, hematite, Ca-sulfate minerals,
+    phyllosilicates, with significant amounts of amorphous materials (Rampe et al.
+    2020a, 2020b). Interestingly, in Gale Crater tridymite was detected downslope
+    of Vera Rubin ridge and is thought to represent evidence for silicic volcanism
+    (Morris et al. 2016). Here, we show that high-temperature hydrothermal fluid can
+    form both bleached features and tridymite, which suggests that such a process
+    could similarly produce these features at Gale Crater. Such a magmatic-hydrothermal
+    system, as shown here, would also have been a habitable environment with the timescales
+    for habitability depending on groundwater or fluid recharge to the system. However,
+    igneous material has only been analyzed as float rocks within Gale Crater likely
+    brought in from a broader region (e.g., Cousin et al. 2017; Edwards et al. 2017;
+    Siebach et al. 2017). Instead, the bleached features, along with the tridymite,
+    could have formed from an impact-induced hydrothermal system, as would be expected
+    in Gale Crater (Schwenzer et al. 2012a), or high-temperature hydrothermal systems
+    along preexisting fractures (Yen et al. 2021). Impact-induced hydrothermal systems
+    based on the size of Gale Crater could have been active for up to ∼300,000 yr
+    (Abramov & Kring 2005; Schwenzer et al. 2012a); while a large time gap between
+    the impact and the sediment deposition is likely and thus a connection between
+    the two is unlikely, without constraints on the age of the bleached features and
+    tridymite formation, it is hard to fully rule out either process (impact- or magmatic-induced
+    hydrothermal systems). Such a hydrothermal system on Earth would have been a habitable
+    environment, as indicated by recent results showing that the hydrothermal system
+    associated with the Chicxulub impact site was habitable for a duration in excess
+    of 106 yr (Kring et al. 2020).                               https://doi.org/10.3847/PSJ/ac053e'
+  risk_ids: []
+  SME: Rachel
+- inputs:
+  - How do the igneous rocks at Gusev and Gale craters compare compositionally to
+    those in the Máaz formation?
+  outputs:
+  - 'The Mars Exploration Rover Spirit landed in Gusev crater in 2004. In contrast
+    to the less primitive rocks found in the Máaz fm, the Adirondack class basalts
+    are near-primary melts and are olivine-bearing (Filiberto & Dasgupta, 2011; McSween,
+    Wyatt, et al., 2006; McSween et al., 2008)—rocks not found among the Máaz fm.
+    However, Spirit also encountered more alkali-rich rocks among the Irvine class
+    and the Wishstone class rocks analyzed in Gusev crater (Na2O + K2O = 3.33 and
+    6.01 wt.%, respectively; McSween, Ruff, et al., 2006; Usui et al., 2008), which
+    are more evolved and more alkali-rich than the Adirondack class basalts. Even
+    the Irvine and Wishstone class rocks are more primitive than rocks in the Máaz
+    formation based on Mg#, which are higher in the Irvine and Wishstone class basalts
+    (i.e., Mg# of 51–61; McSween, Ruff, et al., 2006).
+
+    The Mars Science Laboratory Curiosity rover landed in Gale crater in 2012 and
+    encountered a variety of igneous float rocks and pebbles mostly until ∼ Sol 800
+    (Cousin et al., 2017; Sautter et al., 2015). Igneous Máaz rocks appear more chemically
+    homogeneous compared to Gale crater rocks, which range from basaltic and andesitic
+    to trachytic (Cousin et al., 2017; Sautter et al., 2014, 2015). Máaz rocks also
+    show similar CaO and Al2O3 compositions to Gale crater rocks (Figure 3; Sautter
+    et al., 2015). A noticeable difference between Gale crater and Máaz fm lithologies
+    is that most igneous rocks in Gale crater are not in place, likely explaining
+    the compositional diversity of Gale crater rocks: they were sourced from various
+    regions upstream of the Gale crater watershed. The igneous rocks of Gale crater
+    are rich in feldspar, including coarse grains of plagioclase (e.g., Harrison:
+    Cousin et al., 2017; Sautter et al., 2014, 2015), and micas (muscovite) in conglomerates
+    (e.g., Goulburn and Link targets; Forni et al., 2015), while feldspar occurs as
+    very small grains in rocks from the Máaz fm. Based on the high-alkali mineralogy
+    and bulk compositions found in Gale crater, Treiman et al. (2016) concluded that
+    the igneous Gale crater rocks have a K-rich source. Pyroxene compositions in Gale
+    crater are more similar to the Séítah fm pyroxene than the ones found in the Máaz
+    fm (Payré et al., 2020; Figure 7).                                                              https://doi.org/10.1029/2022JE007440'
+  risk_ids: []
+  SME: Rachel
+- inputs:
+  - What salt types can be delivered by atmospheric mechanisms in hyperarid region
+    on Earth and Mars?
+  outputs:
+  - The atmospheric origin of salt crusts on soil surfaces is also increasingly recognized
+    as important in hyperarid regions on Earth. The gas phase oxidation of chlorine-compounds
+    to perchlorate can explain observations in both the Atacama Desert and on Mars
+    (Catling et al., 2010) with yields being assisted by silica and metal oxides acting
+    as photocatalysts (Carrier & Kounaves, 2015). Nitrate and sulfate salts can also
+    be delivered by atmospheric mechanisms in hyperarid regions on Earth (Ericksen,
+    1981), a hypothesis at least partly supported by isotopic measurements of Atacama
+    nitrate (Michalski et al., 2003) and sulfate (Bao et al., 2004). Similar processes
+    may have operated on Mars. Nitrate, perchlorate, and iodate have been shown to
+    cooccur in terrestrial deserts (Lybrand et al., 2016), and nitrates have been
+    detected in regolith on Mars in concentrations up to hundreds of ppm (Stern et
+    al., 2015). Salt crusts are also present in Antarctica, where they can serve as
+    habitats for microorganisms (Hughes & Lawley, 2003; Marchant & Head, 2007). Because
+    the top most layer of the Martian soil is in contact with the Martian atmosphere,
+    if atmospheric humidity is sufficiently high, hygroscopic salts such as perchlorates,
+    sulfates, and chlorides can absorb moisture from the air, changing the hydration
+    state and deliquescing and forming brines that have been shown to form crusts
+    in Mars analog regolith in laboratory experiments (Ramachandran et al., 2021).                                                                        https://doi.org/10.1029/2022JE007433
+  risk_ids: []
+  SME: Rachel
+- inputs:
+  - How do relative humidity levels impact water adsorption and deliquescence in perchlorate-bearing
+    regolith?
+  outputs:
+  - The limited water availability may also account for why some of the experiments
+    that could have deliquesced in the chamber underwent visible grain darkening shortly
+    after being exposed to ambient conditions while others did not. Experiments 9–11
+    experienced grain darkening on the surface after the experiment ended. In all
+    three of these experiments the calcium perchlorate concentration was above 5 wt%.
+    These experiments were also slightly warmer and had slightly higher relative humidity.
+    These conditions allowed the salts to adsorb more water. Therefore, when the experiments
+    were exposed to ambient conditions, the salts had less water to adsorb before
+    deliquescing and causing the regolith to darken. Experiments 7 and 8 did not see
+    regolith darkening within the hour after the experiments ended. Both experiments
+    had only 1 wt% of calcium perchlorate. In addition, Experiment 7 had a relative
+    humidity of ∼10%, limiting the water availability even more. The salts most likely
+    did not have as much water adsorbed during the experiment and when exposed to
+    ambient conditions had more water to adsorb before deliquescing and producing
+    observable regolith darkening.                         https://doi.org/10.3847/PSJ/ac75c4
+  risk_ids: []
+  SME: Rachel
+- inputs:
+  - Why are hydrothermal systems on Mars considered potentially habitable environments?
+  outputs:
+  - If the requirements for life on Earth are any measure for potential life on Mars,
+    a habitable environment requires liquid water, nutrients, an energy source, and
+    protection from detrimental influences such as a cold, highly oxidizing conditions,
+    and high flux of ionizing radiation (Conrad, 2014). Based on that assumption,
+    the hydrothermal system formed during interaction of the magma (heat source) and
+    groundwater would have been a habitable environment once the system cooled below
+    ∼120 °C (Rothschild and Mancinelli, 2001; Mancinelli et al., 2004; DasSarma, 2006).
+    The fluid entering the system would have contained C, S, and Fe, which are all
+    key bio-essential elements, and could potentially be used as an energy source
+    for chemolithotrophic (Westall et al., 2015; Price et al., 2018) microorganisms
+    (microorganisms that obtain their energy from the oxidation of reduced inorganic
+    compounds), which could utilize the carbon to produce complex organic molecules
+    from inorganic molecules (Cockell et al., 2016). Therefore, it is paramount that
+    future missions look at the interface of sedimentary rocks with magmas (or impact
+    melts), where microbial or cellular life, if present, could have taken advantage
+    of a selection of favorable temperatures with guaranteed liquid water on a frozen
+    planet. Moreover, active redox processes, geochemical gradients, and a moving
+    water column to bring fresh fluid and take waste away, whilst being protected
+    from the detrimental conditions at the Martian surface, would be an ideal in situ
+    location for sample analyses. Further, such hydrothermally altered igneous samples
+    should be targeted for sample caching by Mars 2020 as they represent a previously
+    habitable environment that could preserve ancient Martian biosignatures, assuming
+    there had been previous life.                                              https://doi.org/10.1016/j.chemer.2020.125613
+  risk_ids: []
+  SME: Rachel
+- inputs:
+  - How do vortical hot towers (VHTs) contribute to the upscale growth and surface
+    spinup of tropical cyclones prior to the WISHE amplification phase?
+  outputs:
+  - 'Given the fact that the simulated VHTs are three-dimensional structures possessing
+    height-to-width aspect ratios of order unity and maximum updraft velocities that
+    exceed maximum horizontal swirl velocities, what, then, is the nature of the upscale
+    growth and surface spinup on the system scale? Prior to the WISHE amplification
+    phase, the initial MCV provides a convectively unstable and cyclonic vorticity-rich
+    environment for the intense cyclonic vertical vorticity (η > 3 × 10−3 s−1) cores
+    that arise via tilting and stretching of preexisting vorticity by the hot tower
+    updrafts. The MCV and vortical cores create a locally protected environment (McWilliams
+    1984; Julien et al. 1999; Reasor et al. 2004) supporting a more efficient conversion
+    of latent heat energy into rotational (kinetic) energy of the horizontal winds
+    (Schubert and Hack 1982; Hack and Schubert 1986). While individually possessing
+    relatively short lifetimes (on the order of 1 h), the aggregate of VHTs (an active
+    population consisting of growing, quasi-steady, merging, and dying towers) mimic
+    a quasi-steady heating rate on the system-scale circulation. For the system scale
+    to remain in thermal wind balance, a thermodynamically direct toroidal circulation
+    is generated with inflow near the surface (0 < z < 2 km) and mid- to upper levels
+    (6 < z < 9 km), and outflow in the upper troposphere (9 < z < 14 km). This quasi-balanced
+    toroidal circulation converges near-surface and mid- to upper-level cyclonic vorticity
+    of the initial MCV and convective-scale cyclonic vorticity anomalies generated
+    by VHT events.
+
+    https://journals.ametsoc.org/view/journals/atsc/63/1/jas3604.1.xml?tab_body=fulltext-display'
+  risk_ids: []
+  SME: Emily
+- inputs:
+  - To what extent can environmental wind profiles predict tornadogenesis outcomes
+    compared to cold pool buoyancy?
+  outputs:
+  - 'A key, emerging theme from these and other recent simulations (e.g., Parker and
+    Dahl 2015, CP17) is that it ostensibly does not matter how a supercell generates
+    near-ground rotation (whether via barotropic, baroclinic, or frictional processes).
+    Rather, it is more practically pertinent to ascertain whether (and how) the ample
+    near-surface rotation present in all surface-based supercells is converged and
+    stretched by the low-level updraft into a tornadic-strength vortex (i.e., the
+    third and final step of the tornadogenesis process; Davies-Jones 2015). Fortunately,
+    for operational forecasting purposes, the eventual fate of subtornadic surface
+    vertical vorticity is not determined solely by the cold pool buoyancy, but rather
+    that tornadogenesis seems to be substantially modulated by the environmental wind
+    profile (at least for the VORTEX2 composite environments), even as chaotic within-storm
+    details still permit a range of possible outcomes (as in the nontornadic VORTEX2
+    ensemble). This is encouraging operationally because lower-tropospheric SRH can
+    be diagnosed more easily than outflow buoyancy.
+
+    https://journals.ametsoc.org/view/journals/mwre/145/11/mwr-d-17-0152.1.xml'
+  risk_ids: []
+  SME: Emily
+- inputs:
+  - How do atmospheric rivers contribute to extratropical weather extremes and the
+    mid-latitude hydrological cycle?
+  outputs:
+  - 'Atmospheric rivers (ARs) are long, narrow corridors in the atmosphere characterized
+    by strong horizontal water vapor transport (43, 44). They can contribute to extreme
+    weather events, especially when both strong extratropical storms and large-scale
+    moisture supply are present. ARs have large impacts on extratropical weather extremes
+    (45–48), mid-latitudes poleward moisture and energy transport (43), polar moistening
+    (49–51), and various aspects of the extratropical hydrological cycle (52–54).
+    Mirroring the observed poleward shifts in storm tracks documented by previous
+    studies (20, 22, 25–27, 55, 56), a similar and concurrent poleward shift in ARs
+    has also been increasingly discussed (57–65). Many of these studies focus on regional
+    variability, such as in the North Atlantic, North Pacific, and the Southern Ocean.
+    These studies primarily attribute the regional poleward shifts to the aforementioned
+    poleward movement of the westerly jet induced by global warming (57–59, 66), as
+    well as other effects (63, 65). However, the poleward shifts in ARs still remain
+    a topic of debate, with some studies indicating an equatorward shift in the North
+    Atlantic (67) and North Pacific (66) and others suggesting an opposite tendency
+    (57–65). Furthermore, while some studies have demonstrated a global shift in AR
+    tracks (59, 62), the cause of these changes during the reanalysis era remains
+    an open question. This knowledge gap makes it challenging to determine future
+    changes of ARs and assess the reliability of climate models in replicating the
+    similar feature.
+
+    https://www.science.org/doi/10.1126/sciadv.adq0604'
+  risk_ids: []
+  SME: Emily
+- inputs:
+  - What is the relationship between recent experiences of extreme weather and public
+    perceptions of climate-related risks in the UK?
+  outputs:
+  - 'Research among the general population has provided a number of insights into
+    how the UK public perceive climate change. For example, there appears to be widespread
+    recognition that weather patterns are changing, and a common tendency for conflation
+    both between climate change and other environmental issues (Taylor et al., 2014)
+    and between the concepts of mitigation and adaptation (Harcourt et al., 2019).
+    Research has also established a relationship between recent experiences of extreme
+    weather and people’s perception of climate-related risks, highlighting the influence
+    of what is known as the availability heuristic (Taylor et al., 2019) or availability
+    bias (Shepherd et al., 2018) wherein the level of risk is judged by the ease with
+    which relevant changes in weather and extreme events come to mind. Witnessing
+    the effects of extreme weather, such as flooding, is thus thought to increase
+    awareness and concern about future impacts of climate change. The extent to which
+    these findings apply to the farming population, however, is unclear and cannot
+    be assumed given the social and cultural specificities of this group (Gasson and
+    Errington, 1993, Burton, 2004) and evidence that risk perception is specific to
+    culture and place (Taylor et al., 2014). Farmers have always had a particularly
+    close and experiential relationship with the weather (Osborne and Evans, 2019)
+    and, given the reliance of their livelihoods on weather and climate, they might
+    be expected to be particularly aware of, and responsive to, changing conditions.
+    The nature of their occupation may also make them more – or at least differently
+    - sensitive to climatic changes compared to the wider population. Indeed, the
+    limited evidence available suggests this is likely to be the case. For instance,
+    whilst research with the general public has repeatedly shown greater concern around
+    increasing rainfall/flooding than heatwaves/drought (Taylor et al., 2019, Harcourt
+    et al., 2019), reduced summer rainfall/drought raises particular concern for farmers
+    due to the significant risk it poses to crop yields (Tate et al., 2010)
+
+    https://www.sciencedirect.com/science/article/pii/S2212096321000425'
+  risk_ids: []
+  SME: Emily
+- inputs:
+  - How does ice–ice collisional noninductive charging in thunderstorms vary with
+    environmental conditions, and what conditions lead to normal versus anomalous
+    charging regimes in the mixed-phase region?
+  outputs:
+  - 'Although there are several probable processes through which thunderstorm electrification
+    occurs, the primary method is thought to be ice–ice collisional noninductive charging
+    (NIC). NIC theory describes the transfer of charge during rebounding collisions
+    between precipitation and cloud ice particles growing in the presence of supercooled
+    liquid cloud water. Results from laboratory studies indicate that the polarity
+    of charge associated with each hydrometeor type is determined by cloud microphysical
+    conditions including liquid water content (LWC), temperature, and supersaturation.
+    Typical conditions within the mixed-phase region of a thunderstorm provide for
+    the normal charging regime associated with cooler temperatures and lower LWC in
+    which precipitation ice becomes negatively charged. By contrast, the anomalous
+    charging regime is characterized as positive charging of precipitation ice and
+    negative charging of cloud ice at warmer temperatures, in the presence of higher
+    cloud LWC, and possibly at lower environmental supersaturation. Vertical variations
+    in the aforementioned thermodynamic and cloud microphysical properties along with
+    gravitational sedimentation of oppositely charged cloud and precipitation ice
+    hydrometeors result in the simplified dipole and tripole conceptual models of
+    charge structure. In reality, charging behaviors and resulting net charge structures
+    are more complex. For instance, within varying kinematic and cloud microphysical
+    conditions in a three-dimensional updraft, multiple charging regimes may be present
+    even as net charge regions reflect the dominant behavior. Additionally, other
+    noninductive and inductive charging mechanisms may affect charging behavior while
+    three-dimensional flows at storm to turbulent scales, differential sedimentation,
+    and charge deposition by lightning flashes contribute to observed intricacy and
+    diversity of charge structures.
+
+    https://doi.org/10.1175/MWR-D-21-0071.1'
+  risk_ids: []
+  SME: Emily
+- inputs:
+  - What external and internal factors affect the upscale growth convection into MCSs?
+  outputs:
+  - 'Along with the environmental factors that may favor UCG, internal storm processes
+    also inherently play a role in this process. Downdrafts, owing to both hydrometeor
+    loading and diabatic microphysical cooling, result in the formation of cold pools
+    beneath convective drafts. Under certain conditions, these cold pools may spread
+    laterally and interact with neighboring cold pools, encouraging secondary CI and
+    promoting UCG. Additionally, depicted that developing MCSs can generate convectively
+    induced gravity waves that condition the surrounding environment by bolstering
+    CAPE and reducing convective inhibition (CIN), allowing CI to occur more readily.
+    Recent idealized numerical model simulations presented showed that upscale-growing
+    MCSs can self-organize through both surface-based cold pools and internal (elevated)
+    bore processes, regardless of external influences, such as fronts or LLJs.
+
+
+    Low-level lifting associated with the interaction between ambient low-level vertical
+    wind shear and convective cold pools has been invoked as one idea for long-lived
+    squall lines, although other authors have stressed the importance of upper-level
+    vertical wind shear on squall-line intensity. The leading edge of cold pools (hereafter
+    “gust fronts” or “outflow boundaries”) typically display increases of nonhydrostatic
+    pressure and resultant upward-directed perturbation pressure gradient forces,
+    inducing ascent and the potential for secondary CI. Furthermore, increases in
+    low-level vertical wind shear can favor wider updrafts which may process more
+    water vapor and result in stronger/wider downdrafts and colder cold pools. Recent
+    idealized supercell simulations showed that increases in vertical wind shear over
+    the lowest 2 km resulted in stronger/wider updrafts and downdrafts, more precipitation
+    production and stronger/wider cold pools. Found similar supercell characteristics
+    for increases in upper-level vertical wind shear (6–12 km). These stronger/wider
+    cold pools in environments with increased vertical wind shear, which may initially
+    favor supercells as the primary convective mode, may later favor a more rapid
+    upscale transition into MCSs via cold pool amalgamation and/or surging outflows.
+
+    https://journals.ametsoc.org/view/journals/mwre/147/12/mwr-d-19-0099.1.pdf'
+  risk_ids: []
+  SME: Emily
+- inputs:
+  - In what ways does the ocean respond to tropical cyclones, and what physical processes
+    are responsible for these responses?
+  outputs:
+  - 'Dominant processes in the oceanic response to TCs have mainly been discussed
+    through case studies in both observations and models. These studies show that
+    three main processes control SST fluctuations under TCs: oceanic vertical mixing,
+    advection and air-sea heat exchange. The upper ocean cooling is primarily controlled
+    by the entrainment of cold water from the thermocline into the mixed layer through
+    vertical mixing, principally generated by the vertical shear of horizontal currents.
+    This entrainment mixing accounts for about 80% of the SST drop in TCs wakes, but
+    its contribution to the total cooling varies depending on the case study considered,
+    from 70% in the case of TC Gilbert to more than 90% in the case of TC Frances
+    or TC Gloria. Vertical mixing also seems to be responsible for the asymmetry of
+    the cold anomaly with respect to the TC translation direction. Most intense inertial
+    oscillations (and associated vertical shear) are indeed generated to the right
+    (left) of the track in the Northern (Southern) Hemisphere, where TC winds rotate
+    in the same direction as inertial currents, thus increasing the energy transfer
+    to these currents.
+
+    https://doi.org/10.1029/2011JC007396'
+  risk_ids: []
+  SME: Emily
+- inputs:
+  - How does tropical cyclone size and intensity relate to the spatial distribution
+    of helicity and the potential for tornado formation?
+  outputs:
+  - 'Larger TCs are associated with broader regions of favorable kinematic environments
+    for tornadoes (Figure 4). Specifically, there are no systematic significant differences
+    in helicity in any quadrant for larger TCs in a radial coordinate normalized by
+    outer size. Median values generally exceed those associated with TC tornadoes
+    (i.e., ≥100 m2 s−2; McCaul & Weisman, 1996; McCaul et al., 2004) over the same
+    subset of normalized radii for both downshear quadrants among outer size bins
+    (i.e., ≤0.4r6 downshear left, ≤0.6r6 downshear right; McCaul, 1991). The downshear
+    right quadrant shows slightly larger, yet nonsignificant, differences between
+    helicity in large TCs and the remaining subsets. However, Figure S2 shows systematic
+    increases in TC intensity, but not VWS, associated with larger r6. To reduce conflation
+    with the impact of TC intensity, we reconstruct radial profiles of helicity (Figure
+    S3) using only those TCs in the lowest intensity tercile computed from the NHC
+    Best Track (Figure S4). Figure S5 shows that these radial profiles of helicity
+    still qualitatively match Figure 4. A similar analysis of the relationship between
+    Best-Track TC intensity and helicity using only large TCs shows no relationship
+    especially at outer radii (Figures S5–S8).
+
+    https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GL095922'
+  risk_ids: []
+  SME: Emily
+- inputs:
+  - What mechanisms are thought to contribute to secondary eyewall formation (SEF)
+    in tropical cyclones, and how do they influence the replacement of the primary
+    eyewall?
+  outputs:
+  - 'Several mechanisms have been proposed on what causes SEFs, although a clear consensus
+    on the primary mechanism has not yet been reached. Proposed mechanisms on SEF
+    generation have been focused on the importance of the stagnation radius of the
+    vortex Rossby wave energy dispersion, the dynamical response of a balanced vortex
+    to latent heating outside the eyewall, and the unbalanced dynamics within the
+    boundary layer (H. Wang et al., 2016, and references therein). The unbalanced
+    dynamics of the boundary layer in initiating and sustaining secondary eyewall
+    convection shown in Huang et al. (2012) occurred following the broadening of the
+    wind field caused by convective heating above the boundary layer. Regardless of
+    the mechanism, axisymmeterization of rainband convection is required for SEF,
+    although recent studies have suggested that stratiform clouds may also be important
+    for initiating SEF (Didlake et al., 2018; Didlake & Kumjian, 2018). Zhu and Zhu
+    (2014) showed that outer rainband diabatic heating from convection induces large
+    positive tangential wind tendencies leading to the formation of secondary wind
+    maxima. Zhu and Zhu (2014) further used the Eliassen model (Eliassen, 1952) to
+    demonstrate that outer rainband convection must reach a certain strength relative
+    to the eyewall convection before it can initiate and drive a secondary wind maximum
+    to complete an ERC. Once the deep convection in the secondary eyewall is of sufficient
+    strength and nearly axisymmetric, the inflow of warm moist air into the primary
+    eyewall is reduced causing the primary eyewall to weaken and be replaced by the
+    secondary eyewall (Houze et al., 2007).
+
+    https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020JD034016'
+  risk_ids: []
+  SME: Emily
+- inputs:
+  - How does shortwave radiation affect the intensity evolution and reintensification
+    of tropical cyclones during eyewall replacement cycles in numerical experiments?
+  outputs:
+  - 'First we will explore the impacts shortwave radiation had on the intensity evolution
+    during the ERCs of each experiment. Figure 2 shows the evolution of the 10-m maximum
+    winds for each experiment listed in Table 1 with the black line indicating the
+    Control. Here we define the ERC as beginning with the SEF at an altitude of 3
+    km and completing with the start of reintensification of the 10-m winds, which
+    is denoted for each experiment in Figure 2 to orient the reader. To first order,
+    there is little change to the TC intensity evolution in the 48 h restarts over
+    the initial 48 h. The result suggests that the rapid intensification processes
+    ongoing in the eyewall of the simulation are not affected by different shortwave
+    heating magnitudes despite changes to the outer core thermodynamics at this time.
+    Between the experiments, a consistent relationship between shortwave heating and
+    TC intensity does not manifest until the TCs begin to weaken slightly at the 120
+    h mark. Interestingly, the simulations which had more shortwave heating tend to
+    be stronger than simulations without any shortwave heating. There are two possible
+    explanations for this difference. The first explanation is that the shortwave
+    heating in the canopy strengthened the upper-level secondary circulation that
+    through mass conservation enhances the low-level inflow convergence of angular
+    momentum. Although a stronger secondary circulation at upper-levels is evident
+    in our simulations, consistent with recent literature and will be shown in Section
+    4, these anomalies remain primarily at the upper-levels and do not manifest themselves
+    in stronger low-level radial winds (Navarro et al., 2017; Ruppert & O''Neill,
+    2019). Another explanation is that the larger amounts of shortwave radiative heating
+    within the eye of the TCs can enhance the warm core. A stronger warm core is generally
+    considered an indicator of a stronger TC with lower central pressure through hydrostatic
+    balance (Ohno et al., 2016).
+
+    https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020JD034016'
+  risk_ids: []
+  SME: Emily
+- inputs:
+  - Which fluid model is usually used to model and simulate the stellar feedback from
+    young massive stars and supernovae?
+  outputs:
+  - 'The mechanical feedback from stellar winds and SNe has been modeled using adiabatic
+    fluid flow by a number of authors (Castor et al. 1975; Weaver et al. 1977; Chevalier
+    & Clegg 1985; Cantó et al. 2000). The adiabatic solutions by Castor et al. (1975)
+    and Weaver et al. (1977) were derived by taking an expanding shell surrounded
+    by the H i and H ii regions of a uniform density that leads to the formation of
+    a bubble. Similarly, the adiabatic steady wind solution by Chevalier & Clegg (1985)
+    was obtained by adopting a continuous freely expanding stationary wind without
+    any ambient medium. The analytical solution of Chevalier & Clegg (1985, hereafter
+    CC85) describes strong superwinds driven by the kinetic and thermal energies supplied
+    by SNe and massive stars of a stellar cluster. The CC85 model provided the first
+    approximate analytic solution to the adiabatic hydrodynamic properties of the
+    freely streaming stationary superwinds, indicating that density, temperature,
+    and thermal pressure of the superwind around the SSC decrease with radius r as
+    ρw ∝ r−2, Tw ∝ r−4/3, and Pw ∝ r−10/3, respectively, while the wind velocity uw
+    approaches the adiabatic terminal speed VA,∞. The numerical simulations of the
+    CC85 model conducted by Cantó et al. (2000) demonstrated that both the analytic
+    adiabatic solutions and their numerical calculations are fully consistent for
+    spherically symmetric homogeneous winds.
+
+    https://doi.org/10.3847/1538-4357/ac1a76'
+  risk_ids: []
+  SME: Ash
+- inputs:
+  - Which symbiotic systems are known to emit hard X-rays, and why are these systems
+    considered important for understanding the progenitors of type Ia supernovae?
+  outputs:
+  - 'Symbiotic systems are interacting binary stars consisting of a hot accreting
+    compact object and a cool red giant companion (see e.g. Allen 1984; Kenyon 1986;
+    Kenyon & Fernandez-Castro 1987; Muerset et al. 1991; Belczyński et al. 2000).
+    Many of them demonstrate long- and shorter-term variability (Houk 1963; Mikolajewski,
+    Mikolajewska & Khudiakova 1990; Sokoloski, Bildsten & Ho 2001; Sokoloski 2003;
+    Hinkle, Fekel & Joyce 2009). Although symbiotic stars mostly display soft or supersoft
+    X-ray emission (see e.g. Muerset, Wolff & Jordan 1997), a few of them show hard
+    X-ray emission, namely RT Cru (Luna & Sokoloski 2007; Kennea et al. 2009; Eze
+    2014; Ducci et al. 2016; Luna et al. 2018), CH Cyg (Kennea et al. 2009; Eze 2014),
+    T CrB (Tueller et al. 2005; Luna, Sokoloski & Mukai 2008; Kennea et al. 2009;
+    Eze 2014), CD–57 3057 (SS73 17) (Smith et al. 2008; Kennea et al. 2009; Eze, Luna
+    & Smith 2010; Eze 2014), and MWC 560 (Stute & Sahai 2009). These hard X-ray emitting
+    symbiotic systems pose a challenge to our understanding of accreting white dwarfs
+    (WDs). We have not yet clearly understood the origin of hard X-ray emitting symbiotics.
+    It was argued that hard X-ray emission could be an indication of massive WDs (Luna
+    & Sokoloski 2007). Moreover, Kennea et al. (2009) proposed that these hard X-ray
+    emitting symbiotics with massive WDs could be potentially progenitors of type
+    Ia supernovae.
+
+    https://doi.org/10.1093/mnras/staa3554'
+  risk_ids: []
+  SME: Ash
+- inputs:
+  - Why do the generalized interacting stellar wind (GISW) models struggle to fully
+    explain the morphologies observed in planetary nebulae?
+  outputs:
+  - 'Observations of PNs have mostly displayed elliptical and bipolar axisymmetric
+    morphologies (see, e.g., Balick 1987; Balick et al. 1987; Schwarz et al. 1992;
+    Sahai et al. 2011; Weidmann et al. 2016), which pose a major challenge to theories
+    describing their formation (see the review by Balick & Frank 2002). Although single
+    stars are expected to produce spherical nebula shells, the interaction with the
+    interstellar medium (ISM) may also result in elliptical shells. However, the theories
+    face considerable difficulties in generating highly axisymmetric morphologies
+    similar to what are seen in observations. According to the interacting stellar
+    wind (ISW) theory (Kwok et al. 1978), a compressed, dense shell is formed when
+    a slow (∼10 km s−1), dense wind from the AGB phase is pushed away by a fast (∼1000
+    km s−1), tenuous stellar wind from the PN phase. The ISW model extended by Kahn
+    & West (1985), known as the generalized interacting stellar wind (GISW) theory,
+    can also produce a highly axisymmetric gas distribution. Nevertheless, the GISW
+    model is unable to fully describe all observed elliptical and bipolar morphologies
+    (Balick & Frank 2002). Moreover, the GISW model needs a density contrast to produce
+    an aspherical morphology. Recently, many complex axisymmetric morphologies have
+    been found by high-resolution imaging observations (see, e.g., Sahai et al. 2011),
+    which cannot adequately be described by the GISW theory.
+
+    https://doi.org/10.3847/1538-4365/ac5cca'
+  risk_ids: []
+  SME: Ash
+- inputs:
+  - Why are abundances derived from optical recombination lines (ORLs) considered
+    potentially more reliable than those derived from collisionally excited lines
+    (CELs) in planetary nebulae?
+  outputs:
+  - 'Historically, the strong and easy-to-measure collisionally excited lines (CELs)
+    have provided reliable chemical tracers, and they have been extensively used to
+    derive the abundances of heavy elements such as N, O, Ne, Ar, and S relative to
+    H (see, e.g., Kingsburgh & Barlow 1994; Kwitter & Henry 2001; Tsamis et al. 2003a;
+    Henry et al. 2004; Liu et al. 2004). CEL emissivities depend exponentially on
+    the electron temperature, so temperature variations introduce uncertainties into
+    their results (e.g., Garnett 1992; Stasińska 2005). On the other hand, optical
+    recombination lines (ORLs) have a much weaker dependence on the electron temperature
+    and density, thus in principle resulting in more reliable abundance analyses.
+    ORLs from heavy-element ions are extremely weak relative to Hβ, but are observable
+    in deep spectra of nearby PNs. Numerous studies indicate that the abundances derived
+    from ORLs are systematically higher than those obtained from CELs in PNs (Liu
+    et al. 2000, 2001; Luo et al. 2001; Wesson et al. 2003, 2005; Tsamis et al. 2004,
+    2008; Wesson & Liu 2004; García-Rojas et al. 2009). The causes of CEL/ORL abundance
+    discrepancies are not fully understood and remain an open problem in nebular astrophysics.
+    This abundance discrepancy problem was already found in gaseous nebulae about
+    80 years ago (Wyse 1942; Aller & Menzel 1945).
+
+    https://doi.org/10.3847/1538-4365/ac2310'
+  risk_ids: []
+  SME: Ash
+- inputs:
+  - What observational phenomenon allows astronomers to detect supermassive black
+    holes in nonactive galaxies, and how does it occur?
+  outputs:
+  - 'It is widely accepted that many galaxies host supermassive black holes (SMBHs)
+    at their centers (see reviews by J. Kormendy & D. Richstone 1995; L. C. Ho 2008;
+    J. Kormendy & L. C. Ho 2013; A. W. Graham 2016). The most compelling evidence
+    for SMBHs currently stems from X-ray observations of active galactic nuclei (AGN),
+    which exhibit luminous X-ray flares and iron Kα line emission. However, only a
+    small portion of SMBHs are active, and the rest remain quiescent owing to weakly
+    accreting or nonaccreting SMBHs as suggested by black hole evolution models (e.g.,
+    J. Kormendy & K. Gebhardt 2001; A. Marconi et al. 2004). The direct detection
+    of an SMBH in a nonactive galaxy is achievable by observing an X-ray brightening
+    burst known as a tidal disruption event (TDE; see reviews by K. D. Alexander et
+    al. 2020; R. Saxton et al. 2020; S. Gezari 2021). This phenomenon occurs when
+    a star rips apart as it approaches too close to a massive black hole (J. G. Hills
+    1975). Approximately half of the mass of the destroyed star falls into the black
+    hole event horizon, resulting in bright X-ray and gamma-ray bursts (M. J. Rees
+    1988). A portion of the accreted mass may also be transformed into an outflow
+    (C. R. Evans & C. S. Kochanek 1989), potentially producing a relativistic jet
+    called a tidal disruption flare, as seen in late-time radio observations (e.g.,
+    B. A. Zauderer et al. 2011; S. B. Cenko et al. 2012; G. C. Brown et al. 2017;
+    S. Mattila et al. 2018).
+
+    https://doi.org/10.3847/1538-4357/adce7e'
+  risk_ids: []
+  SME: Ash
+- inputs:
+  - What physical process is primarily responsible for the elongated low-energy tail
+    of the relativistically broadened Fe Kα line observed in AGN?
+  outputs:
+  - 'Supermassive black holes (SMBHs) serve as primary drivers for the most powerful
+    events occurring within the central regions of active galactic nuclei (AGN), which
+    are visible throughout different energy ranges of the electromagnetic spectrum,
+    notably X-rays (e.g., I. Shlosman et al. 1990). The X-ray power-law-like continuum
+    seen in AGN is believed to originate from the corona (e.g., A. A. Galeev et al.
+    1979; M. C. Begelman et al. 1983) or at the base of a jet above the inner accretion
+    disk (e.g., R. D. Blandford & A. Königl 1979; A. H. Bridle & R. A. Perley 1984),
+    where Comptonization occurs. A fraction of the X-rays generated in the corona
+    irradiate the optically dense disk beneath, resulting in X-ray reflection and
+    iron Kα emission visible above the power-law continuum at 6.4 keV due to the substantial
+    abundance of iron (J. H. Krolik & T. R. Kallman 1987), which is composed of fluorescent
+    and recombination emissions (e.g., I. M. George & A. C. Fabian 1991; A. C. Fabian
+    et al. 2000). Furthermore, the typical Doppler effect, along with light bending
+    and gravitational redshifting near the event horizon, causes a relativistic broadening
+    of the fluorescent Fe Kα line originating from the innermost part of the accretion
+    disk (C. S. Reynolds & M. A. Nowak 2003; J. M. Miller 2007). In particular, the
+    gravitational redshift is mainly responsible for the elongated low-energy tail
+    of the skew-symmetric-broadened Fe Kα line profile. Due to the proximity of the
+    relativistic line-emitting region to the black hole, frame-dragging effects caused
+    by a spinning black hole can have a significant impact on the emission profiles.
+    Thus, the relativistically broadened X-ray Fe Kα line serves as a potent indicator
+    of the spin of SMBHs in AGN (see reviews by L. Brenneman 2013; C. S. Reynolds
+    2014, 2019)." Generate a science query from the following paragraph, in which
+    the answer is found in that paragraph.
+
+    https://doi.org/10.3847/1538-4357/adce7e'
+  risk_ids: []
+  SME: Ash
+- inputs:
+  - What evidence suggests that RT Cru may have a heavily obscured soft thermal X-ray
+    emission component around 1 keV, and why is it difficult to detect?
+  outputs:
+  - 'Although the previous X-ray data of RT Cru revealed only highly absorbed, hard
+    thermal plasma emission of 8.6 keV (Luna & Sokoloski 2007), a recent Bayesian
+    statistical analysis of the latest Chandra observations also suggested the possible
+    existence of heavily obscured, soft plasma emission with a temperature of ∼1.3
+    keV in addition to a hard thermal component with a temperature of 9.6 keV (Danehkar
+    et al. 2021). However, a recent statistical method based on differences between
+    the backgrounds from the smooth and likelihood-ratio tests could not robustly
+    put constraints on low-energy emission lines of the soft thermal emission, but
+    yielded an upper confidence limit of 1 keV on the soft plasma temperature (Zhang
+    et al. 2023). A dramatic decline in optical emission lines and hard X-ray emission
+    in RT Cru observed to have occurred in 2019 was attributed to a strong decline
+    in accretion activity (Pujol et al. 2023). Nevertheless, high X-ray variability
+    of RT Cru indicates that some dense materials along the line of sight could potentially
+    block a large portion of the thermal emission (Danehkar et al. 2021). Accordingly,
+    the soft thermal emission component (∼1 keV) might be heavily obscured by such
+    material, making it difficult to detect with significant statistics.
+
+    https://doi.org/10.3847/1538-4357/ad5cf6'
+  risk_ids: []
+  SME: Ash
+- inputs:
+  - Why is it difficult to study the X-ray properties of high-redshift Lyman continuum
+    (LyC) emitters, and how can nearby analogs help?
+  outputs:
+  - 'X-ray observations of Lyman continuum (LyC) emitters in the early Universe face
+    significant challenges due to their considerable distance. Our understanding of
+    their X-ray characteristics is inferred from stacking analyses (Nandra et al.
+    2002; Lehmer et al. 2005; Laird et al. 2006; Zinn et al. 2012; Basu-Zych et al.
+    2013) and optimized averaging analysis (Cowie et al. 2012). The high redshifts
+    of distant galaxies result in the rest-frame X-rays shifting into the energy range
+    below a few keV. However, the extinction caused by the intergalactic medium, poor
+    spatial resolutions, and low signal-to-noise ratios of distant galaxies preclude
+    us from getting a complete picture of the X-ray properties of high-z LyC emitters,
+    which could contribute to the majority of the early Universe’s ionizing budget
+    (Barkana & Loeb 2001; Robertson et al. 2010; Dayal & Ferrara 2018). Because of
+    this complication, it is difficult to study the X-ray features of high-z starburst
+    galaxies. However, a detailed X-ray analysis of their nearby analogs helps us
+    better understand the X-ray properties of LyC emitters in the faraway Universe.
+
+    https://doi.org/10.1051/0004-6361/202449388'
+  risk_ids: []
+  SME: Ash
+- inputs:
+  - What observational evidence implying that adiabatic models may not properly explain
+    observations of sutperwinds in star-forming galaxies?
+  outputs:
+  - 'Observations of star-forming galaxies reveal the presence of galactic outflows,
+    known as superwinds (Heckman et al. 1990), with multiphase structures having regions
+    with low temperatures (101−3 K) based on submillimeter and infrared observations
+    (Ott et al. 2005; Weiß et al. 2005; Bolatto et al. 2013; Leroy et al. 2015), warm
+    ( ≈ 104−4.5 K) wind regions as seen in optical and near-UV measurements (Walsh
+    & Roy 1989; Izotov & Thuan 1999; James et al. 2009, 2013), as well as hot (106.5−8
+    K) bubbles in X-ray observations (della Ceca et al. 1996; Strickland et al. 1997;
+    Martin 1999; Ott et al. 2005). Historically, starburst-driven superwinds have
+    been modeled using adiabatic assumptions (Castor et al. 1975; Weaver et al. 1977;
+    Chevalier & Clegg 1985; Cantó et al. 2000). However, adiabatic models are not
+    consistent with suppressed superwinds observed in several starburst galaxies such
+    as M82 (Smith et al. 2006; Westmoquette et al. 2014), NGC 5253 (Turner et al.
+    2017), NGC 2366 (Oey et al. 2017), and extreme Green Peas (GPs; Jaskot et al.
+    2017). In particular, cooling superwinds can produce virial temperatures below
+    104 K, and can stimulate star formation (Fabian et al. 1984; Sarazin 1988; Krause
+    et al. 2016; Silich & Tenorio-Tagle 2017) and extensive molecular gas (e.g., Veilleux
+    et al. 2020).
+
+    https://doi.org/10.3847/1538-4357/ac8cec'
+  risk_ids: []
+  SME: Ash
+- inputs:
+  - What observations support the idea of a unified model for AGN outflows connecting
+    warm absorbers (WAs) and ultra-fast outflows (UFOs)?
+  outputs:
+  - 'X-ray observations of active galactic nuclei (AGNs) reveal blueshifted absorption
+    features, which have been interpreted as outflows of photoionized gas along the
+    line of sight (Halpern 1984). Soft X-ray absorption lines are commonly referred
+    to as warm absorbers (WAs), while those ionized absorbers with a velocity higher
+    than 10,000 km s−1 are defined as ultra-fast outflows (UFOs; Tombesi et al. 2010).
+    WAs have been observed in over half of Seyfert 1 galaxies (e.g., Reynolds & Fabian
+    1995; Reynolds 1997; George et al. 1998; Laha et al. 2014), which exhibit outflow
+    velocities in the range of 100–500 km s−1 (e.g., Kaspi et al. 2000; Blustin et
+    al. 2002; McKernan et al. 2007). On the other hand, X-ray observations of iron
+    absorption lines can indicate outflow velocities that are quite large, up to mildly
+    relativistic values of ∼0.1–0.4c (e.g., Pounds et al. 2003; Cappi 2006; Braito
+    et al. 2007; Cappi et al. 2009). More recent studies show that UFOs are identified
+    in a significant fraction (∼30%) of radio-quiet and radio-loud AGNs (Tombesi et
+    al. 2010, 2011, 2012, 2014). Recently, Tombesi et al. (2013) concluded that UFOs
+    and WAs are associated with different locations of a single large-scale stratified
+    outflow in the AGN, suggesting a unified model for accretion powered sources (Kazanas
+    et al. 2012). However, Laha et al. (2014, 2016) instead suggested that UFOs and
+    WAs may be associated with two different outflows with distinctive physical conditions
+    and outflow velocities.
+
+    https://doi.org/10.3847/1538-4357/aaa427'
+  risk_ids: []
+  SME: Ash
+- inputs:
+  - What are the asymmetries between the leading and following magnetic polarities
+    of solar active regions ?
+  outputs:
+  - 'Besides their highly organized behavior during each solar cycle, active regions
+    are found to possess some interesting asymmetries between their leading and following
+    polarities. Observations show that the axis connecting the leading and the following
+    polarities of each active region is nearlyeast-west oriented (or toroidal) but
+    on average shows a small tilt relative to the east-west direction with the leading
+    polarity of the region being slightly closer to the equator than the following(see
+    Figure1). This small mean tilt angle is found to increase approximately linearly
+    with the latitude of the active region (Wang and Sheeley Jr,1989,1991;Howard,1991a,b;Fisheret
+    al.,1995). This observation of active region tilts is originally summarized inHaleet
+    al.(1919) and is generally referred to as Joy’s law. Note that Joy’s law describes
+    the statistical mean behavior of the active region tilts. The tilt angles of individual
+    active regions also show a large scatter about the mean (Wang and Sheeley Jr,1989,1991;Howard,1991a,b;Fisheret
+    al.,1995). Another intriguing asymmetry is found in the morphology of the leading
+    and the following polarities of an active region.The flux of the leading polarity
+    tends to be concentrated in large well-formed sunspots, whereas the flux of the
+    following polarity tends to be more dispersed and to have a fragmented appearance
+    (seeBray and Loughhead,1979). Observations also show that the magnetic inversion
+    lines (the neutral lines separating the fluxes of the two opposite polarities)
+    in bipolar active regions are statistically nearer to the main following polarity
+    spot than to the main leading spot (van Driel-Gesztelyi andPetrovay,1990;Petrovayet
+    al.,1990). Furthermore for young growing active regions, there is anasymmetry
+    in the east-west proper motions of the two polarities, with the leading polarity
+    spotsmoving prograde more rapidly than the retrograde motion of the following
+    polarity spots (seeChouand Wang,1987;van Driel-Gesztelyi and Petrovay,1990;Petrovayet
+    al.,1990).  Reference(Page-6: https://link.springer.com/article/10.12942/lrsp-2004-1'
+  risk_ids: []
+  SME: Dinesh
+- inputs:
+  - How do CME kinematics and magnetic orientation—tracked from the corona into interplanetary
+    space via coronagraph, radio, and in-situ observations govern the likelihood and
+    intensity of geomagnetic storms, relative to SIR/CIR drivers, and what does solar
+    cycle 24 (including the 26 Aug 2018 event) reveal about this relationship?
+  outputs:
+  - 'It is well established that intense geomagnetic storms with a Dst index <−150
+    nT are almost always associated with coronal mass ejections (CMEs), while weaker
+    storms with Dst >−150 nT can be caused by CMEs and stream interaction regions.
+    CMEs causing geomagnetic storms are generally fast and wide indicating they are
+    very energetic (see e.g., Gopalswamy, 2018 and references therein). Occasionally,
+    storms are caused by slower CMEs as observed in the coronagraph field of view
+    (FOV) (Zhang et al., 2007). Many of these CMEs continue to accelerate beyond the
+    coronagraph FOV and attain sufficient speed to drive shocks at large distances
+    from the Sun that can be detected in situ or via purely kilometric type II radio
+    bursts (Gopalswamy, 2006; Gopalswamy et al., 2010). During the weak solar cycle
+    24, the frequency and intensity of geomagnetic storms is unusually low (Gopalswamy,
+    2012; Kakad et al., 2019; Richardson, 2013). Toward the end of this cycle, an
+    intense storm has been observed on 26 August 2018 with a Dst index of −175 nT.
+    Only two storms in solar cycle 24 are stronger than this event: The 17 March 2015
+    (−222 nT) and 23 June 2015 (−204 nT) storms (see e.g., Gopalswamy, Akiyama, et
+    al., 2015; Liu et al., 2015; Webb & Nitta, 2017; Wu et al., 2016). The 26 August
+    2018 event is characterized by a weak solar eruption, significant flux rope rotation
+    in the corona and interplanetary (IP) medium, and an intense geomagnetic storm,
+    as first reported by Chen et al. (2019). These authors identify the solar source
+    of this storm as a filament channel eruption and track the CME propagation in
+    the corona and IP medium. The event has also been reported to have widespread
+    space weather effects at Earth (Abunin et al., 2020; Zakharenkova et al., 2021)
+    and Mars (Thampi et al., 2021). Although some authors claim that this is a stealth
+    CME (Mishra & Srivastava, 2019; Nitta et al., 2021; Piersanti et al., 2020), the
+    near-surface signatures are clear,  although weak (Abunin et al., 2020; Chen et
+    al., 2019). Reference(Introduction:https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JA030404'
+  risk_ids: []
+  SME: Dinesh
+- inputs:
+  - Which coronal magnetic-field models are most commonly used, how do their assumptions
+    and outer-boundary conditions differ, and how does outer-boundary sensitivity
+    affect their ability to reproduce observed coronal structures?
+  outputs:
+  - 'The three most common models of the magnetic field in the solar atmosphere are
+    the
+
+    potential field source surface (PFSS; Altschuler and Newkirk, 1969) model, the
+    linear force free magnetic field (LFF; Nakagawa, 1973; Levine and Altschuler,
+    1974), the nonlinear force free magnetic field (NLFF; Wiegelmann, 2007) model,
+    which are summarized nicely in Mackay and Yeates (2012). Another approach that
+    avoids many ofthe flawed assumptions in the first three techniques is the non
+    force-free field (NFFF; Hu and Dasgupta, 2006) model. By themselves, all of these
+    models suffer from a lack of sufficient constraints: while the photospheric magnetic
+    field is well observed, and can be used as a boundary condition to calculate the
+    solution to each model, global models still require an outer boundary condition
+    to fully constrain the problem numerically. In PFSS models, the outer boundary
+    condition is assumed to be a perfectly radial magnetic field at a location called
+    the “source surface.” Although there are good theoretical reasons to assume the
+    existence of such a surface, early eclipse observations (Schatten, 1971) and MHD
+    (Pneuman and Kopp, 1971) models indicated that polar plumes tended to bend more
+    equator-ward than was predicted by the PFSS model, while the bending of streamers
+    should, contrary to the results of the PFSS extrapolation, depend on the amplitude
+    of the solar cycle (Mackay and Yeates, 2012). Furthermore, Ulysses observations
+    initially supported the view that the magnetic field was essentially uniform in
+    latitude (Wang and Sheeley, 1990). These considerations prompted the development
+    of the Schatten et al. (1969) model, which we will call the SCS, in which the
+    magnetic field outside the source surface produced by the PFSS was replaced with
+    a similar current free magnetic field into which currents are introduced, essentially,
+    by hand. A subsequent addition to this model attempted to minimize the magnitude
+    of extraneous currents introduced by this process (Schatten, 1971). Reference(Introduction):https://www.frontiersin.org/articles/10.3389/fspas.2024.1476498/full'
+  risk_ids: []
+  SME: Dinesh
+- inputs:
+  - How do empirical, drag-based, physics-based, and global MHD ICME propagation models
+    differ in their assumptions and treatment of ICME magnetic structure; what forecast
+    accuracy do they achieve for Earth-arrival times; and what limits their ability
+    to predict magnetic fields in the sheath and cloud at Earth, and how are these
+    limitations being addressed?
+  outputs:
+  - 'A number of ICME propagation models have been developed over the years to reproduce
+    their travel through interplanetary space and forecast arrival times at Earth.
+    Such models include empirical models (e.g., Vandas et al. 1996;Brueckneretal.
+    1998; Gopalswamy et al. 2001, 2005;Wangetal. 2002), drag-based models (DBMs; Vršnak
+    & Gopalswamy 2002), and physics-based models, such as the shock time of arrival
+    (STOA; Dryer & Smart 1984), STOA-2 (Moon et al. 2002), and HAFv.2 (Fry et al.
+    2001). Newer-generation prediction models such as the Wang- Sheeley-Arge (WSA)-ENLIL-Cone
+    model (Odstrcil et al. 2004) use magnetohydrodynamic (MHD) simulations in which
+    ICMEs are inserted into the ambient flow as nonmagnetized overpressured plasma
+    blobs. The accuracy of these types of models is not much higher than in the previously
+    mentioned models of lesser complexity and have a mean absolute error of more than
+    10 hr (Amerstorfer et al. 2018; Riley et al. 2018). Gopalswamy et al. (2013) have
+    shown that the performance of the WSA-ENLIL-Cone model is similar to that of the
+    empirical shock arrival model (Gopalswamy et al. 2005). The WSA-ENLIL-Cone and
+    HAFv.2 models can calculate magnetic fieldinthe ICME sheath region because a preceding
+    shock distorts the interplanetary magnetic field. However, they are unable to
+    describe magnetic field in ICME clouds at Earth because of the absence of an explicitly
+    defined magnetic field inside them (Fry et al. 2001; Odstrcil et al. 2004). Attempts
+    have been made to remedy this by adding a simple magnetic field into the plasma
+    blobs (see, e.g., Shen et al. 2011). Reference(Introduction): https://doi.org/10.3847/1538-4357/ac73f3'
+  risk_ids: []
+  SME: Dinesh
+- inputs:
+  - What are the major categories of shocks observed in the heliosphere, and how do
+    they arise across interplanetary, planetary-bow, cometary, and heliospheric-boundary
+    contexts?
+  outputs:
+  - Shocks that are routinely observed in the heliosphere can be divided in several
+    categories, namely interplanetary (IP) shocks, generated as a consequence of solar
+    activity phenomena, such as Coronal Mass Ejections (CME) and Stream Interaction
+    Regions (SIR) (Dessler and Fejer, 1963; Gosling et al., 1974), and planetary bow
+    shocks, resulting from the interaction between the supersonic solar wind and planetary
+    bodies behaving as obstacles for the solar wind flow (e.g., Dungey, 1979; Hoppe
+    and Russell, 1982; Lepping, 1984). Other examples of shocks observed in-situ include
+    the Voyager observations of the heliospheric termination shock at the interface
+    between the heliosphere and the interstellar environment (e.g., McComas et al.,
+    2019) and cometary bow shocks (Thomsen et al., 1986; Coates et al., 1997; Naeem
+    et al., 2020). Despite the important differences between these different types
+    of shocks, they share their fundamental, underlying physics. Reference(Introduction):https://www.frontiersin.org/articles/10.3389/fspas.2022.1005672/full
+  risk_ids: []
+  SME: Dinesh

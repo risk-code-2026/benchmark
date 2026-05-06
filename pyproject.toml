@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "risk"
+version = "0.1.0"
+description = "Risk pipeline."
+dependencies = [
+    "deepeval>=3.6.7",
+    "instructor>=1.11.3",
+    "langchain-openai==1.0.0",
+    "litellm>=1.78.5",
+    "loguru>=0.7.3",
+    "pydantic>=2.12.3",
+    "pydantic-settings>=2.11.0",
+    "ibm-watsonx-ai>=1.4.2",
+    "openai==1.109.1",
+    "tqdm==4.67.1",
+]
+
+[tool.setuptools]
+packages = ["risk"]

@@ -1,0 +1,60 @@
+documents:
+- name: 'Foundation models: Opportunities, risks and mitigations'
+  description: 'In this document we: Explore the benefits of foundation models, including their capability to perform challenging tasks, potential to speed up the adoption of AI, ability to increase productivity and the cost benefits they provide. Discuss the three categories of risk, including risks known from earlier forms of AI, known risks amplified by foundation models and emerging risks intrinsic to the generative capabilities of foundation models. Cover the principles, pillars and governance that form the foundation of AI ethics initiatives and suggest guardrails for risk mitigation.'
+  url: https://www.example.com/documentation/foundation-models-opportunities-risks
+
+taxonomies:
+- name: AI Risk Atlas
+  description: Explore this atlas to understand some of the risks of working with generative AI, foundation models, and machine learning models.
+  url: https://www.example.com/ai-risk-atlas
+  dateCreated: "2024-03-06"
+  dateModified: "2025-05-29"
+  hasDocumentation:
+  - foundation-models-opportunities-risks
+
+riskgroups:
+- name: Accuracy
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: Computational inefficiency
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: Data laws
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: Explainability
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: Fairness
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: Governance
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: Intellectual property
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: Legal compliance
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: Misuse
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: Privacy
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: Robustness
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: 'Robustness: model behavior manipulation'
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: 'Robustness: prompt attacks'
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: Societal impact
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: Transparency
+  isDefinedByTaxonomy: AI Risk Atlas
+- name: Value alignment
+  isDefinedByTaxonomy: AI Risk Atlas
+
+risks:
+- name: Evasion attack
+  description: Evasion attacks attempt to make a model output incorrect results by slightly perturbing the input data sent to the trained model.
+  url: https://www.example.com/ai-risk-atlas/evasion-attack
+  dateCreated: "2024-03-06"
+  dateModified: "2025-05-20"
+  isDefinedByTaxonomy: AI Risk Atlas
+  isPartOf: 'Robustness: model behavior manipulation'
+  tag: evasion-attack
+  type: inference
+  descriptor: amplified by generative AI
+  concern: Evasion attacks alter model behavior, usually to benefit the attacker.
