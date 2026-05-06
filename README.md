@@ -40,7 +40,9 @@ These scripts:
 - Compute precision, recall, and per-risk metrics
 - Print results directly to the terminal
 
-No additional pipeline setup is required.
+Model selection is controlled inside each script. OpenAI models are selected by passing a model name as a string (for example, `"gpt-4.1-mini"`), while Watsonx and RITS models are selected using the corresponding enum values. The scripts include commented examples showing how to switch between providers and models.
+
+No additional pipeline setup is required beyond installing dependencies and setting the relevant provider credentials.
 
 ---
 
@@ -66,11 +68,27 @@ The dataset includes:
 
 ## 🧠 Model Providers
 
-The toolkit supports multiple backends:
+The toolkit supports three model backends:
 
 - OpenAI (default if model name is a string)
 - Watsonx
 - RITS
+
+Model selection is handled by the type of model identifier passed to the evaluator:
+
+- If the model is provided as a string, it is treated as an OpenAI model name.
+- If the model is provided as a `WatsonxModels` enum value, the Watsonx backend is used.
+- If the model is provided as a `RITSModels` enum value, the RITS backend is used.
+
+Examples:
+
+```python
+model = "gpt-4.1-mini"                       # OpenAI
+model = "gpt-4.1-nano"                       # OpenAI
+model = WatsonxModels.GRANITE_4H_SMALL       # Watsonx
+model = WatsonxModels.LLAMA_3_3_70B_INSTRUCT # Watsonx
+model = RITSModels.LLAMA_3_3_70B_INSTRUCT    # RITS
+```
 
 ### Configuration
 
@@ -87,9 +105,6 @@ WATSONX_PROJECT_ID=<watsonx_project_id>
 OPENAI_API_KEY=<your_openai_api_key>
 ```
 
-Model selection:
-- Enum → Watsonx / RITS
-- String → OpenAI
 
 ---
 
@@ -160,6 +175,10 @@ data/
 ├── benchmark/
 │   ├── scientific_risk_benchmark.yaml
 │   └── scientific-risk-croissant.jsonld
+├── inputs/
+│   ├── inputs_with_risks_full.yaml
+│   └── inputs_no_risks_full.yaml
+├── outputs/   # generated at runtime
 
 scripts/
 ├── test_harness_1_step.py
