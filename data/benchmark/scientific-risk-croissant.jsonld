@@ -1,0 +1,199 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "equivalentProperty": "cr:equivalentProperty",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "samplingRate": "cr:samplingRate",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@type": "sc:Dataset",
+  "name": "risk_benchmark",
+  "description": "A benchmark for evaluating reasoning-level risks in scientific content generation, consisting of SME-authored and SME-validated instances with controlled single-risk injection.",
+  "conformsTo": [
+    "http://mlcommons.org/croissant/1.1",
+    "http://mlcommons.org/croissant/RAI/1.0"
+  ],
+  "citeAs": "Dataset Creator. (2026). risk_benchmark Dataset. Generated with automated type inference.",
+  "creator": {
+    "@type": "sc:Person",
+    "name": "Anonymous"
+  },
+  "datePublished": "2026-05-05",
+  "license": "https://spdx.org/licenses/Apache-2.0.html",
+  "url": "https://raw.githubusercontent.com/risk-code-2026/benchmark/main/data/benchmark/scientific_risk_benchmark.jsonl",
+  "version": "1.0.0",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "file_0",
+      "name": "scientific_risk_benchmark.jsonl",
+      "contentSize": "641428",
+      "contentUrl": "scientific_risk_benchmark.jsonl",
+      "encodingFormat": "application/jsonl",
+      "sha256": "6fccdacc857478674ba8a646e74468973cd39b9e8afbd091143f07d912637843"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "scientific_risk_benchmark.jsonl",
+      "name": "scientific_risk_benchmark.jsonl",
+      "description": "Records from scientific_risk_benchmark.jsonl (297 rows)",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "scientific_risk_benchmark.jsonl/paragraph",
+          "name": "paragraph",
+          "description": "Column 'paragraph'",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "file_0"
+            },
+            "extract": {
+              "column": "paragraph"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scientific_risk_benchmark.jsonl/question",
+          "name": "question",
+          "description": "Column 'question'",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "file_0"
+            },
+            "extract": {
+              "column": "question"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scientific_risk_benchmark.jsonl/risk_id",
+          "name": "risk_id",
+          "description": "Column 'risk_id'",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "file_0"
+            },
+            "extract": {
+              "column": "risk_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scientific_risk_benchmark.jsonl/risk_reason",
+          "name": "risk_reason",
+          "description": "Column 'risk_reason'",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "file_0"
+            },
+            "extract": {
+              "column": "risk_reason"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "rai:dataLimitations": "The benchmark evaluates reasoning-level risks in standalone question–paragraph instances and does not fully capture multi-source synthesis or the complete taxonomy of risks. It is not intended to represent naturally occurring model errors in the wild.",
+  "rai:dataBiases": "The benchmark may reflect SME assumptions, domain expertise, and coverage. LLM-assisted corruptions may bias examples toward risks that are easier to generate, detect, or validate.",
+  "rai:personalSensitiveInformation": "No personal or sensitive data is included. All instances consist of scientific text, synthetic augmentations, and SME annotations.",
+  "rai:dataUseCases": "Intended for evaluating reasoning-level risk detection in scientific content generation, including benchmarking guardrailing systems and LLM evaluators. Not intended for direct deployment decisions or as a standalone measure of model safety.",
+  "rai:dataSocialImpact": "The benchmark may improve evaluation of AI-generated scientific content by enabling detection of reasoning-level risks beyond factual errors. However, over-reliance on automated risk evaluation could lead to misplaced trust in model outputs.",
+  "rai:hasSyntheticData": true,
+  "prov:wasGeneratedBy": [
+    {
+      "@type": "prov:Activity",
+      "@id": "ACT-001",
+      "prov:label": "Data Collection",
+      "prov:type": "Data Collection",
+      "prov:description": "Subject matter experts authored risk-free scientific reference paragraphs and associated contextual questions.",
+      "prov:wasAssociatedWith": {
+        "@type": "prov:Agent",
+        "name": "Anonymous subject matter experts"
+      }
+    },
+    {
+      "@type": "prov:Activity",
+      "@id": "ACT-002",
+      "prov:label": "synthetic_data_generation",
+      "prov:type": "synthetic_data_generation",
+      "prov:description": "Additional corrupted instances were generated through controlled LLM-assisted injection of a single target reasoning risk into reference paragraphs.",
+      "prov:wasAssociatedWith": {
+        "@type": "prov:SoftwareAgent",
+        "name": "Large language model"
+      }
+    },
+    {
+      "@type": "prov:Activity",
+      "@id": "ACT-003",
+      "prov:label": "Data Annotation",
+      "prov:type": "Data Annotation",
+      "prov:description": "Subject matter experts validated, edited, or rejected generated corruptions to ensure that retained instances reflected the intended risk.",
+      "prov:wasAssociatedWith": {
+        "@type": "prov:Agent",
+        "name": "Anonymous subject matter experts"
+      }
+    },
+    {
+      "@type": "prov:Activity",
+      "@id": "ACT-004",
+      "prov:label": "Data Preprocessing",
+      "prov:type": "Data Preprocessing",
+      "prov:description": "Validated benchmark instances were standardized and converted into JSONL format with fields for question, paragraph, risk_id, and risk_reason.",
+      "prov:wasAssociatedWith": {
+        "@type": "prov:Agent",
+        "name": "Anonymous authors"
+      }
+    }
+  ]
+}
